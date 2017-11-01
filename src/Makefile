@@ -16,7 +16,7 @@ QUIET_PROC=$(QUIET_CC)$(CC)
 QUIET_EXEC=$(QUIET_EXE)exec
 QUIET_REMOVE=$(QUIET_RM)rm -f
 
-src  = c.c
+src  = a.c b.c
 
 obj  = Main
 
